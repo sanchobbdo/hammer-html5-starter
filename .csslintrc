@@ -1,0 +1,2 @@
+--warnings=box-model,compatible-vendor-prefixes,gradients,text-indent,duplicate-background-images,font-faces,regex-selectors,universal-selector,unqualified-attributes,floats,font-sizes,outline-none,rules-count
+--errors=display-property-grouping,duplicate-properties,empty-rules,known-properties,bulletproof-font-face,fallback-colors,star-property-hack,underscore-property-hack,vendor-prefix,import,overqualified-elements,shorthand,zero-units,important,ids,errors

@@ -1,0 +1,20 @@
+/* EQUIPO */
+
+Name: 					Sancho BBDO
+Site:					http://www.sanchobbdo.com.co/
+Twitter:				@sanchobbdo
+Location:				Bogotá, Colombia
+
+/* SITIO */
+
+Estándares:
+
+HTML5
+CSS3
+
+Componentes:
+
+HTML5 Boilerplate		http://html5boilerplate.com/
+HTML5 Bones				http://html5bones.com/
+jQuery: 				http://jquery.com/
+Normalize:				http://necolas.github.io/normalize.css/

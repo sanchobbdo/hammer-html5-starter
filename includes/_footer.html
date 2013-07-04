@@ -1,0 +1,21 @@
+<footer role="contentinfo"></footer>
+
+<!-- Obtiene jQuery del CDN de Google, con opción a cargarlo de un archivo local  -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+<!-- Scripts concatenados y minificados -->
+<!-- @javascript plugins app -->
+
+<!-- Validación HTML - Eliminar en producción - https://github.com/philipwalton/html-inspector  -->
+<script src="https://rawgithub.com/philipwalton/html-inspector/master/dist/html-inspector.js"></script>
+<script> HTMLInspector.inspect() </script>
+
+<!-- Google Analytics: cambie UA-XXXXX-X por el ID del sitio. -->
+<script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src='//www.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+</body>
+</html>

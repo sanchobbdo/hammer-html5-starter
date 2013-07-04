@@ -1,0 +1,92 @@
+/*
+Autor: Sancho BBDO (http://www.sanchobbdo.com.co)
+*/
+
+$black: #333;
+
+/* =1 GLOBAL
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+body {
+	background-color: #eee;
+	color: $black;
+	line-height: 1;
+	font: normal 16px $helvetica;
+	vertical-align: top; }
+
+.l-container{
+	margin: 0 auto;
+	width: 960px; }
+
+/* Selections ----------- */
+::-moz-selection {
+	background: #000;
+	color: white; }
+
+::selection {
+	background: #000;
+	color: white; }
+
+	::selection:window-inactive {
+		background: $black;
+		color: #eee; }
+
+/* =2 LINKS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+a:link,
+a:visited { color: white; }
+
+a:hover { color: white; }
+
+a:active { color: white; }
+
+/* =3 HEADINGS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* @todo Write headings CSS */
+
+/* =4 HEADER
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* @todo Write Header CSS */
+
+/* =5 CONTENT
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* @todo Write Content CSS */
+
+/* =6 FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* @todo Write Footer CSS */
+
+/* =7 MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* Viewport ----------- */
+@-webkit-viewport {	width: device-width; }
+@-moz-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@-ms-viewport {	width: device-width; }
+@viewport {	width: device-width; }
+
+/*All ----------- */
+@media all {
+	.l-container {
+		@include transition (max-width .4s ease-in-out);
+	}
+}
+
+@media only screen and (min-width: 35em) {
+    /* @todo Write style adjustments for viewports that meet the condition */
+}
+
+/* Retina Display ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio : 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* @todo Write style adjustments for viewports that meet the condition */
+}
+
+/* Print Styles ----------- */
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* @todo Write style adjustments for high resolution devices */
+}

@@ -1,0 +1,24 @@
+{
+    "bitwise": true,
+    "camelcase": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "forin": true,
+    "immend": true,
+    "indent": 4,
+    "latedef": true,
+    "maxcomplexity": 10,
+    "maxlen": 80,
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "nonew": true,
+    "quotmark": "single",
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+
+    "browser": true,
+    "jquery": true,
+    "globals": {}
+}
