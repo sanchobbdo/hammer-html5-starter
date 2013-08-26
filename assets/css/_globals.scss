@@ -1,0 +1,30 @@
+// GLOBAL VARIABLES
+
+// Colors ----------- //
+$black: #333;
+$white: #f7f7f7;
+
+// Fonts ----------- //
+// Put your font variables here
+
+/* GLOBAL SETTINGS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* Viewport ----------- */
+@-webkit-viewport {	width: device-width; }
+@-moz-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@-ms-viewport {	width: device-width; }
+@viewport {	width: device-width; }
+
+/* Selections ----------- */
+::-moz-selection {
+	background: #000;
+	color: $white; }
+
+::selection {
+	background: #000;
+	color: $white; }
+
+	::selection:window-inactive {
+		background: $black;
+		color: #eee; }

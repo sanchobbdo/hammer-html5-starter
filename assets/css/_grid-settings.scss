@@ -1,0 +1,21 @@
+@import "neat/neat-helpers"; // or "neat-helpers" when in Rails
+
+// Change the grid settings
+$max-width: em(960);
+
+// When set to true, it sets the box-sizing property of all elements to border-box.
+$border-box-sizing: false;
+
+// Turn on/off the visual grid
+$visual-grid: false;
+$visual-grid-color: cyan;
+
+// Define your breakpoints
+// Style adjustments for viewports that meet the condition less than 480px
+$mobile: new-breakpoint(max-width 30em 4);
+// Style adjustments for viewports that meet the condition 560px
+$tablet: new-breakpoint(min-width 35em 8);
+// Style adjustments for viewports that meet the condition 960px
+$screen: new-breakpoint(min-width 60em 12);
+// Style adjustments for viewports that meet the condition 1600px
+$bigscreen: new-breakpoint(min-width 100em 12);
