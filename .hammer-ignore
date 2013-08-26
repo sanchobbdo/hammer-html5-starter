@@ -1,4 +1,6 @@
+.DS_Store
 .csslintrc
 .jshintrc
 template.txt
 README.md
+hammer-html5-starter.hammer

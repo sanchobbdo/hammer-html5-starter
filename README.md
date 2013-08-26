@@ -18,6 +18,7 @@ Features
 
 - Print Styles on style.css.
 - JS Hint and CSS lint configuration files included.
+- Includes [Bourbon Neat](http://neat.bourbon.io/) as a grid framework.
 - [Normalize.css](http://necolas.github.com/normalize.css/).
 - [Placeholder.js](http://mths.be/placeholder).
 - [Parsley.js](http://parsleyjs.org/).

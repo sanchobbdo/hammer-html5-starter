@@ -2,42 +2,56 @@
 Autor: Sancho BBDO (http://www.sanchobbdo.com.co)
 */
 
-$black: #333;
+@import "grid-settings";
+@import "neat";
+@import "helpers";
+@import "globals";
 
-/* =1 GLOBAL
+/* =1 BODY AND LAYOUTS
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+html {
+	background-color: $white;
+}
+
 body {
-	background-color: #eee;
 	color: $black;
-	line-height: 1;
-	font: normal 16px $helvetica;
-	vertical-align: top; }
+	font: normal 100%/1.5 $helvetica;
+	vertical-align: top;
+}
 
+/* Layout Styles ----------- */
 .l-container{
-	margin: 0 auto;
-	width: 960px; }
+	position: relative;
+	width: 90%;
+	@include outer-container;
+}
 
-/* Selections ----------- */
-::-moz-selection {
-	background: #000;
-	color: white; }
+.l-header {
+	/* @todo Write header layout element styles */
+}
 
-::selection {
-	background: #000;
-	color: white; }
+.l-content {
+	/* @todo Write content layout element styles */
+}
 
-	::selection:window-inactive {
-		background: $black;
-		color: #eee; }
+.l-footer {
+	/* @todo Write footer layout element styles */
+}
 
 /* =2 LINKS
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 a:link,
-a:visited { color: white; }
+a:visited {
+	color: $black;
+}
 
-a:hover { color: white; }
+a:hover {
+	color: $black;
+}
 
-a:active { color: white; }
+a:active {
+	color: $black;
+}
 
 /* =3 HEADINGS
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
@@ -49,44 +63,12 @@ a:active { color: white; }
 
 /* =5 CONTENT
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* Section A Styles ----------- */
+/* @todo Write Content CSS */
+
+/* Section B Styles ----------- */
 /* @todo Write Content CSS */
 
 /* =6 FOOTER
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 /* @todo Write Footer CSS */
-
-/* =7 MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
-
-/* Viewport ----------- */
-@-webkit-viewport {	width: device-width; }
-@-moz-viewport { width: device-width; }
-@-o-viewport { width: device-width; }
-@-ms-viewport {	width: device-width; }
-@viewport {	width: device-width; }
-
-/*All ----------- */
-@media all {
-	.l-container {
-		@include transition (max-width .4s ease-in-out);
-	}
-}
-
-@media only screen and (min-width: 35em) {
-    /* @todo Write style adjustments for viewports that meet the condition */
-}
-
-/* Retina Display ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (min-device-pixel-ratio : 1.5),
-       only screen and (min-resolution: 144dpi) {
-    /* @todo Write style adjustments for viewports that meet the condition */
-}
-
-/* Print Styles ----------- */
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* @todo Write style adjustments for high resolution devices */
-}

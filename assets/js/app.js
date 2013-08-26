@@ -4,19 +4,37 @@ NS.Site = (function(){
 	$(document).on('ready', function(){
 		// @todo Write here the Javascript
 
-		// Placeholder Polyfill
-		$('input, textarea').placeholder();
+		var NameSite = {
+			init: function () {
+				this.bindUIActions();
 
-		//Parsley Validation
-		$('form button').on('click',function(e) {
-			$(this).parents('form').parsley( 'validate' );
-			e.preventDefault();
-		});
+				// Placeholder Polyfill
+				$('input, textarea').placeholder();
+			},
+			bindUIActions: function () {
 
-		//GOOGLE ANALYTICS EVENTS
-        $('.btn').on('click', function(){
-            var title = $(this).attr('title');
-            _gaq.push(['_trackEvent', 'Button: ' + title, 'Click', $(this).attr('href')]);
-        });
+				$('#id').on('click', function (e) {
+					//actions
+					e.preventDefault();
+				});
+
+				//GOOGLE ANALYTICS EVENTS
+				$('.btn').on('click', function () {
+					var title = $(this).text();
+
+					ga('send', {
+						'hitType': 'event',          // Required.
+						'eventCategory': 'button',   // Required.
+						'eventAction': 'click',      // Required.
+						'eventLabel': 'Clic en: ' + title,
+						'eventValue': 1
+					});
+				});
+			}
+		};
+
+		NameSite.init();
+
 	});
+
 }());
