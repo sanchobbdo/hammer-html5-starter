@@ -1,6 +1,6 @@
 ![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
 
-HTML5 Front-end Starter - Hammer for Mac Version
+Front-end Starter - Hammer
 ===================================================
 
 - Autor: Adrian Quevedo [adrianquevedo.com](http://adrianquevedo.com)
@@ -16,7 +16,6 @@ This is a template based on H5BP [html5boilerplate.com](http://html5boilerplate.
 Features
 ========
 
-- Print Styles on style.css.
 - JS Hint and CSS lint configuration files included.
 - Includes [Bourbon Neat](http://neat.bourbon.io/) as a grid framework.
 - [Normalize.css](http://necolas.github.com/normalize.css/).
