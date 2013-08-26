@@ -11,7 +11,7 @@ HTML5 Front-end Starter - Hammer for Mac Version
 Purpose
 =======
 
-This is a template based on H5BP [html5boilerplate.com](http://html5boilerplate.com), to kickstart an HTML5 project Sancho BBDO style with [Hammer for Mac](http://hammerformac.com/).
+This is a template based on H5BP [html5boilerplate.com](http://html5boilerplate.com), to kickstart an HTML5 project Sancho BBDO style with [Angular](http://angularjs.org/) and [Hammer for Mac](http://hammerformac.com/).
 
 Features
 ========
