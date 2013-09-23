@@ -1,19 +1,21 @@
-<footer role="contentinfo">
-	<div class="l-container"></div>
+<footer class="l-footer" role="contentinfo">
+	<div class="l-container">
+		<!-- @todo Write your footer content here -->
+	</div>
 </footer>
 
-<!-- Obtiene jQuery del CDN de Google, con opción a cargarlo de un archivo local  -->
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-<!-- Scripts concatenados y minificados -->
+<!-- Scripts concatenated and minified -->
 <!-- @javascript plugins app -->
 
-<!-- Validación HTML - Eliminar en producción - https://github.com/philipwalton/html-inspector  -->
+<!-- HTML Inspector - Delete on production - https://github.com/philipwalton/html-inspector -->
 <script src="https://rawgithub.com/philipwalton/html-inspector/master/dist/html-inspector.js"></script>
 <script> HTMLInspector.inspect() </script>
 
 <!-- START ANALYTICS -->
-<!-- Google Analytics: cambie UA-XXXXX-X por el ID del sitio. -->
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
     function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;

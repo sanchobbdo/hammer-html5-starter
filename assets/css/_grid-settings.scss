@@ -1,4 +1,6 @@
-@import "neat/neat-helpers"; // or "neat-helpers" when in Rails
+// Bourbon Neat settings
+// ------------------------------------------------
+@import "vendor/neat/neat-helpers"; // or "neat-helpers" when in Rails
 
 // Change the grid settings
 $max-width: em(960);
@@ -10,12 +12,18 @@ $border-box-sizing: false;
 $visual-grid: false;
 $visual-grid-color: cyan;
 
-// Define your breakpoints
+// Vertical rhythm settings
+// ------------------------------------------------
+$base-font-size: 16px;
+$base-line-height: 24px;
+
+// Breakpoints definitions
+// ------------------------------------------------
 // Style adjustments for viewports that meet the condition less than 480px
-$mobile: new-breakpoint(max-width 30em 4);
+$mobile: new-breakpoint(max-width em(480, $base-font-size) 4);
 // Style adjustments for viewports that meet the condition 560px
-$tablet: new-breakpoint(min-width 35em 8);
+$tablet: new-breakpoint(min-width em(560, $base-font-size) 8);
 // Style adjustments for viewports that meet the condition 960px
-$screen: new-breakpoint(min-width 60em 12);
+$desktop: new-breakpoint(min-width em(960, $base-font-size) 12);
 // Style adjustments for viewports that meet the condition 1600px
-$bigscreen: new-breakpoint(min-width 100em 12);
+$bigscreen: new-breakpoint(min-width em(1600, $base-font-size) 12);

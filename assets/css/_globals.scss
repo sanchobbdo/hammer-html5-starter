@@ -1,11 +1,22 @@
 // GLOBAL VARIABLES
 
-// Colors ----------- //
-$black: #333;
-$white: #f7f7f7;
+// IE version variables
+// ------------------------------------------------
+$ie7: false !default;
+$ie8: false !default;
+$ie9: false !default;
+$lt-ie9: $ie7 or $ie8;
 
-// Fonts ----------- //
-// Put your font variables here
+// Colour palette
+// ------------------------------------------------
+$black: #3F3F3F;
+$blue: #30B1DF;
+$gray: #ACACAC;
+$green: #9BC204;
+$red: #EE3423;
+$orange: #FF7202;
+$purple: #CE3677;
+$white: #F7F7F7;
 
 /* GLOBAL SETTINGS
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
@@ -17,14 +28,59 @@ $white: #f7f7f7;
 @viewport {	width: device-width; }
 
 /* Selections ----------- */
+// Remove text-shadow in selection highlight: h5bp.com/i
 ::-moz-selection {
-	background: #000;
-	color: $white; }
+	background: $red;
+	color: $white;
+	text-shadow: none;
+}
 
 ::selection {
-	background: #000;
-	color: $white; }
+	background: $red;
+	color: $white;
+	text-shadow: none;
+}
 
-	::selection:window-inactive {
-		background: $black;
-		color: #eee; }
+::selection:window-inactive {
+	background: $black;
+	color: #eee;
+}
+
+// Base styles: opinionated defaults
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+// A better looking default horizontal rule
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+// Remove the gap between images, videos, audio and canvas and the bottom of their containers: h5bp.com/i/440
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+// Remove default fieldset styles.
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+// Allow only vertical resizing of textareas.
+textarea {
+    resize: vertical;
+}

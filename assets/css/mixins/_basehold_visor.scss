@@ -1,13 +1,3 @@
-// HELPER MIXINS AND FUNCTIONS
-
-// One line dotted
-@mixin oneline {
-	line-height: 1;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
 // Basehold.it Visor for Vertical Rhythm
 @mixin basehold ($color: 'black') {
 
