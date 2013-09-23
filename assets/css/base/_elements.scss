@@ -1,0 +1,92 @@
+/* =1 BODY AND LAYOUTS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+html {
+	background-color: $white;
+}
+
+body {
+	color: $black;
+	font: normal 100%/1.5 $helvetica;
+	vertical-align: top;
+}
+
+/* Layout Styles ----------- */
+.l-container {
+	width: 90%;
+	@include outer-container;
+
+	@if $lt-ie9 {
+		width: 960px;
+	}
+}
+
+/* =2 LINKS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+a:link,
+a:visited {
+	color: $red;
+}
+
+a:hover {
+	color: $orange;
+}
+
+a:active {
+	color: $green;
+}
+
+/* =3 HEADINGS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+h1 {
+	font-size: em(42);
+}
+
+h2 {
+	font-size: em(32);
+}
+
+h3 {
+	font-size: em(22);
+}
+
+h4 {
+	font-size: em(16);
+}
+
+h5 {
+	font-size: em(12);
+}
+
+h6 {
+	font-size: em(10);
+}
+
+/* =4 FORM INPUTS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+// This allows for easy targeting of all inputs that mimic input[type="text"].
+// (http://bourbon.io/docs/#html5-input-types)
+
+#{$all-text-inputs} {
+	border: 1px solid $green;
+}
+
+#{$all-text-inputs-hover} { // Target the :hover pseudo-class
+	background: $red;
+}
+
+#{$all-text-inputs-focus} { // Target the :focus pseudo-class
+	background: $white;
+}
+
+button {
+	@include button($black);
+}

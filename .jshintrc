@@ -8,7 +8,7 @@
     "indent": 4,
     "latedef": true,
     "maxcomplexity": 10,
-    "maxlen": 80,
+    "maxlen": 130,
     "newcap": true,
     "noarg": true,
     "noempty": true,
@@ -17,8 +17,9 @@
     "trailing": true,
     "undef": true,
     "unused": true,
-
     "browser": true,
     "jquery": true,
-    "globals": {}
+    "globals": {
+        "ga"
+    }
 }

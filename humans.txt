@@ -1,18 +1,18 @@
-/* EQUIPO */
+/* TEAM */
 
 Name: 					Sancho BBDO
 Site:					http://www.sanchobbdo.com.co/
 Twitter:				@sanchobbdo
 Location:				Bogotá, Colombia
 
-/* SITIO */
+/* SITE */
 
-Estándares:
+Standards:
 
 HTML5
 CSS3
 
-Componentes:
+Components:
 
 HTML5 Boilerplate		http://html5boilerplate.com/
 HTML5 Bones				http://html5bones.com/

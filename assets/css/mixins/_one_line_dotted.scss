@@ -1,0 +1,9 @@
+// One line dotted
+// This will make a element to cut the text and put "…" at the end. Only works for one line.
+
+@mixin oneline {
+	line-height: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

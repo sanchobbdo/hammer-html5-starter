@@ -2,73 +2,45 @@
 Autor: Sancho BBDO (http://www.sanchobbdo.com.co)
 */
 
+// Mixin & function libraries
+// ------------------------------------------------
+// Bourbon Neat Config (http://neat.bourbon.io/)
 @import "grid-settings";
 @import "neat";
-@import "helpers";
+
+// Our Mixins & Functions
+//@import "functions/*";
+@import "mixins/basehold_visor";
+@import "mixins/one_line_dotted";
+@import "mixins/custom_btn";
+
+// @font-face declarations
+// If you're using a JS webfont loader you won't need this
+// ------------------------------------------------
+@import "fonts";
+
+// Vendor CSS libraries (i.e. they actually output styles)
+// ------------------------------------------------
+@import "vendor/normalize";
+
+// Global config variables, colour palette, etc
+// ------------------------------------------------
 @import "globals";
 
-/* =1 BODY AND LAYOUTS
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
-html {
-	background-color: $white;
-}
+// Base element styles
+// ------------------------------------------------
+@import "base/elements";
 
-body {
-	color: $black;
-	font: normal 100%/1.5 $helvetica;
-	vertical-align: top;
-}
+// Modules
+// ------------------------------------------------
+@import "modules/header";
+@import "modules/example_module";
+@import "modules/footer";
 
-/* Layout Styles ----------- */
-.l-container{
-	position: relative;
-	width: 90%;
-	@include outer-container;
-}
+// Global state classes
+// ------------------------------------------------
+@import "state";
 
-.l-header {
-	/* @todo Write header layout element styles */
-}
-
-.l-content {
-	/* @todo Write content layout element styles */
-}
-
-.l-footer {
-	/* @todo Write footer layout element styles */
-}
-
-/* =2 LINKS
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
-a:link,
-a:visited {
-	color: $black;
-}
-
-a:hover {
-	color: $black;
-}
-
-a:active {
-	color: $black;
-}
-
-/* =3 HEADINGS
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
-/* @todo Write headings CSS */
-
-/* =4 HEADER
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
-/* @todo Write Header CSS */
-
-/* =5 CONTENT
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
-/* Section A Styles ----------- */
-/* @todo Write Content CSS */
-
-/* Section B Styles ----------- */
-/* @todo Write Content CSS */
-
-/* =6 FOOTER
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
-/* @todo Write Footer CSS */
+// Print Styles
+// ------------------------------------------------
+//@import "print";

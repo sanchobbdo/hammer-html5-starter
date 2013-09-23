@@ -35,8 +35,7 @@ NS.Site = (function(){
 						'hitType': 'event',          // Required.
 						'eventCategory': 'button',   // Required.
 						'eventAction': 'click',      // Required.
-						'eventLabel': 'Clic en: ' + title,
-						'eventValue': 1
+						'eventLabel': 'Clic en: ' + title
 					});
 				});
 			}
