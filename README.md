@@ -50,7 +50,7 @@ Here's a slightly more complex module:
 // Hey look, module-specific states are just modifiers too!
 // The "is" keyword indicates that this is a state class.
 .fancy-widget--is-loading {
-	background: url(spinner.gif)
+	background: url(spinner.gif);
 }
 
 // It's up to you whether you add a state class on top of the module class...
@@ -63,14 +63,14 @@ Here's a slightly more complex module:
 // Sometimes it's easier to update a  single state attribute with JS instead of
 // faffing about with adding & removing state classes. That's ok.
 .fancy-widget[data-state=is-loading] {
-	background: url(spinner.gif)
+	background: url(spinner.gif);
 }
 
 // A subcomponent (some component that must be a child of .fancy-widget)
 // Generally subcomponent classes exist purely to position an element inside the module.
 // Whatever is inside a subcomponent can usually be extracted out into its own module.
 .fancy-widget__close-button {
-	margin-left: 20px
+	margin-left: 20px;
 }
 ```
 
