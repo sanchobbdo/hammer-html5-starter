@@ -24,6 +24,3 @@
 // Place any jQuery/helper plugins in here.
 
 /* @include jquery.placeholder */
-
-/* @include parsley */
-/* @include messages.es */

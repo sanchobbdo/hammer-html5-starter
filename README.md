@@ -1,29 +1,24 @@
 ![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
 
 # Front-end Starter - Hammer
-This is a template to kickstart an HTML5 project using [Hammer for Mac](http://hammerformac.com/). A starting point with a scalable, maintainable CSS architecture for Sancho BBDO projects.
+This is a template to kickstart an AngularJS HTML5 project using [Hammer for Mac](http://hammerformac.com/). A starting point with a scalable, maintainable CSS architecture for Sancho BBDO projects.
 
 - Autor: Adrian Quevedo [adrianquevedo.com](http://adrianquevedo.com)
 - Twitter: [@adrianengine](http://twitter.com/adrianengine)
 
 ## Features
 - [Hammer for Mac](http://hammerformac.com/) Template.
+- [AngularJS](http://angularjs.org/) Framework.
 - [SMACSS](http://smacss.com/) modules with [BEM](http://bem.info/method/) syntax for modifiers & subcomponents.
 - [Bourbon Neat](http://neat.bourbon.io/) as a grid framework.
 - [Normalize.css](http://necolas.github.com/normalize.css/).
 - [Placeholder.js](http://mths.be/placeholder).
-- [Parsley.js](http://parsleyjs.org/).
 - Standalone IE8 & 9 stylesheets.
 - JS Hint and CSS lint configuration files included.
 
 ## Getting started
-
-<<<<<<< HEAD
-This is a template based on H5BP [html5boilerplate.com](http://html5boilerplate.com), to kickstart an HTML5 project Sancho BBDO style with [Angular](http://angularjs.org/) and [Hammer for Mac](http://hammerformac.com/).
-=======
-1. [Download the Hammer.template file](hammer-html5-starter.hammer?raw=true)
+1. [Download the Hammer.template file](angular-hammer-html5-starter.hammer?raw=true)
 1. Open up the .hammer file and Hammer will import it, ready to use for any new projects.
->>>>>>> master
 
 ## Modules
 With the exception of [base element styles](/assets/css/base) & [global state classes](/assets/css/_state.scss), everything is a standalone, reusable module that doesn't change regardless of the context it appears in.
