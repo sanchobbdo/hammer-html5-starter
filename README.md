@@ -21,7 +21,7 @@ This is a template to kickstart an HTML5 project using [Hammer for Mac](http://h
 ### [Download the Hammer.template file](hammer-html5-starter.hammer)
 
 ## Modules
-With the exception of [base element styles](/assets/css/base) & [global state classes](/assets/css/_state.sass), everything is a standalone, reusable module that doesn't change regardless of the context it appears in.
+With the exception of [base element styles](/assets/css/base) & [global state classes](/assets/css/_state.scss), everything is a standalone, reusable module that doesn't change regardless of the context it appears in.
 
 Grid classes and "unique" things like your site header & footer aren't special. IDs aren't welcome. Everything - **everything** - is a module.
 
@@ -123,7 +123,7 @@ Ideas borrowed from many places, including:
 ## License
 The MIT License (MIT)
 
-Copyright (c) [2013] [Sancho BBDO]
+Copyright (c) 2013 Sancho BBDO
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
