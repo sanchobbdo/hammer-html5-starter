@@ -18,7 +18,7 @@ This is a template to kickstart an HTML5 project using [Hammer for Mac](http://h
 
 ## Getting started
 
-1. #### [Download the Hammer.template file](hammer-html5-starter.hammer?raw=true)
+1. [Download the Hammer.template file](hammer-html5-starter.hammer?raw=true)
 1. Open up the .hammer file and Hammer will import it, ready to use for any new projects.
 
 ## Modules
