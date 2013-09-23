@@ -18,7 +18,8 @@ This is a template to kickstart an HTML5 project using [Hammer for Mac](http://h
 
 ## Getting started
 
-### [Download the Hammer.template file](hammer-html5-starter.hammer)
+1. #### [Download the Hammer.template file](hammer-html5-starter.hammer?raw=true)
+1. Open up the .hammer file and Hammer will import it, ready to use for any new projects.
 
 ## Modules
 With the exception of [base element styles](/assets/css/base) & [global state classes](/assets/css/_state.scss), everything is a standalone, reusable module that doesn't change regardless of the context it appears in.
