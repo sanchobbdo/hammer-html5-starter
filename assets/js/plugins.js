@@ -26,4 +26,4 @@
 /* @include jquery.placeholder */
 
 /* @include parsley */
-/* @include messages.es */
+/* @include es */
