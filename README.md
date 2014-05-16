@@ -7,12 +7,10 @@ This is a template to kickstart an AngularJS HTML5 project using [Hammer for Mac
 - Twitter: [@adrianengine](http://twitter.com/adrianengine)
 
 ## Features
-- [Hammer for Mac](http://hammerformac.com/) Template.
 - [AngularJS](http://angularjs.org/) Framework.
 - [SMACSS](http://smacss.com/) modules with [BEM](http://bem.info/method/) syntax for modifiers & subcomponents.
 - [Bourbon Neat](http://neat.bourbon.io/) as a grid framework.
 - [Normalize.css](http://necolas.github.com/normalize.css/).
-- [Placeholder.js](http://mths.be/placeholder).
 - Standalone IE8 & 9 stylesheets.
 - JS Hint and CSS lint configuration files included.
 
